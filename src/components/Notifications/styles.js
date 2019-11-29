@@ -4,6 +4,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar';
 
 export const Container = styled.div`
   position: relative;
+  z-index: 1;
 `;
 
 export const Badge = styled.button`
