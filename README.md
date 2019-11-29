@@ -7,7 +7,9 @@
 <h4 align="center">
   A barber scheduling app where users can choose from a list of barbers and barbers can track their appointments
 </h4>
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/5fb47697-4fea-45ff-8ca6-f2b8c0694bd9/deploy-status)](https://app.netlify.com/sites/hungry-archimedes-7bb155/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5fb47697-4fea-45ff-8ca6-f2b8c0694bd9/deploy-status)](https://app.netlify.com/sites/hungry-archimedes-7bb155 deploys)
+https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fdeveloper.oswaldlabs.com%2Fnetlify-status%2F{{5fb47697-4fea-45ff-8ca6-f2b8c0694bd9}}
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## :rocket: Built with
 
