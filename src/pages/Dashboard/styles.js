@@ -10,6 +10,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     align-self: center;
+    margin: 0 30px;
 
     button {
       background: none;
@@ -27,7 +28,7 @@ export const Container = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
-    margin-top: 30px;
+    margin: 30px 30px 0;
   }
 `;
 

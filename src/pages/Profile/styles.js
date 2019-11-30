@@ -8,7 +8,7 @@ export const Container = styled.div`
   form {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
+    margin: 30px 30px 0;
 
     input {
       background: rgba(0, 0, 0, 0.1);
@@ -54,20 +54,24 @@ export const Container = styled.div`
       }
     }
   }
-  > button {
-    width: 100%;
-    height: 44px;
-    margin: 10px 0 0;
-    background: #f64c75;
-    font-weight: bold;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    font-size: 16px;
-    transition: background 0.2s;
+  div {
+    margin: 0 30px 0;
 
-    &:hover {
-      background: ${darken(0.06, '#F64C75')};
+    button {
+      width: 100%;
+      height: 44px;
+      margin: 10px 0 0;
+      background: #f64c75;
+      font-weight: bold;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      font-size: 16px;
+      transition: background 0.2s;
+
+      &:hover {
+        background: ${darken(0.06, '#F64C75')};
+      }
     }
   }
 `;

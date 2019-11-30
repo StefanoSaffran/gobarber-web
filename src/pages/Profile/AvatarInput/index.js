@@ -4,7 +4,7 @@ import api from '~/services/api';
 
 import { Container, Preview } from './styles';
 
-export default function AvatarInput() {
+const AvatarInput = () => {
   const { defaultValue, registerField } = useField('avatar');
 
   const [file, setFile] = useState(defaultValue && defaultValue.id);
@@ -28,10 +28,7 @@ export default function AvatarInput() {
     data.append('file', e.target.files[0]);
 
     const response = await api.post('files', data);
-
     const { id, url } = response.data;
-
-    console.tron.log(response.data);
 
     setFile(id);
     setPreview(url);
@@ -58,4 +55,6 @@ export default function AvatarInput() {
       </label>
     </Container>
   );
-}
+};
+
+export default AvatarInput;
