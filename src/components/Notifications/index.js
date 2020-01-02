@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { MdNotifications } from 'react-icons/md';
 import { parseISO, formatDistance } from 'date-fns';
-import enUS from 'date-fns/locale/en-US';
+import ptBR from 'date-fns/locale/pt-BR';
 
 import api from '~/services/api';
 
@@ -30,7 +30,7 @@ export default function Notifications() {
         ...n,
         timeDistance: formatDistance(parseISO(n.createdAt), new Date(), {
           addSuffix: true,
-          locale: enUS,
+          locale: ptBR,
         }),
       }));
 
