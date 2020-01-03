@@ -12,7 +12,7 @@ import {
   parseISO,
 } from 'date-fns';
 import { utcToZonedTime } from 'date-fns-tz';
-import enUS from 'date-fns/locale/en-US';
+import ptBR from 'date-fns/locale/pt-BR';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 import api from '~/services/api';
 
@@ -25,7 +25,7 @@ export default function Dashboard() {
   const [schedule, setSchedule] = useState([]);
 
   const dateFormatted = useMemo(
-    () => format(date, 'MMMM d', { locale: enUS }),
+    () => format(date, 'MMMM d', { locale: ptBR }),
     [date]
   );
 
