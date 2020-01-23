@@ -11,7 +11,7 @@
 
   [![Netlify Status](https://api.netlify.com/api/v1/badges/5fb47697-4fea-45ff-8ca6-f2b8c0694bd9/deploy-status)](https://app.netlify.com/sites/hungry-archimedes-7bb155/deploys)
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img alt="GitHub license" src="https://img.shields.io/github/license/StefanoSaffran/gobarber-web?color=7159c1">
 
 <p>
 
